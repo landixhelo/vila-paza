@@ -1,0 +1,340 @@
+html, body {
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.forum {
+    font-family: "Forum", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+
+.roboto {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kode {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-1 {
+    padding: 15px 30px;
+    background-color: #043E32;
+    border: 0px;
+}
+
+.btn-1:hover {
+    background-color: #D9AD40;
+    transition: 1s ease;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#about-index {
+    background: url('img/bg-wall.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-blend-mode:multiply;
+}
+
+#facilities {
+    background: url('img/469805840.jpg') rgba(0, 0, 0, 0.85);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.rooms-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms-about {
+    background-color: #043E32;
+}
+
+.rooms-about h2 {
+    color: white;
+    text-align: center;
+}
+
+.rooms-about p {
+    color: #D9AD40;
+    text-align: center;
+}
+
+.rooms-about {
+    padding-bottom: 30px;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.rooms-about button {
+    background-color: #D9AD40;
+    text-align: center;
+    padding:5px 10px;
+}
+
+.rooms-about button:hover {
+    opacity: 0.9;
+    transition: 1s ease;
+}
+.rooms-about i {
+    color: white;
+}
+
+#testimonials {
+    background: url('img/469806172.jpg') rgba(0, 0, 0, 0.35);
+    background-blend-mode: multiply;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+}
+
+.cards {
+    position: relative;
+    top: 10px;
+    background-color: #043E32;
+    padding: 60px 20px;
+    width:100%;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+/* .overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s ease;
+    background-color: #D9AD40;
+  }
+
+  .cards:hover .overlay {
+    width: 100%;
+  } */
+
+.cards-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.cards-desc {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+/* gallery.html */
+.gallery-img {
+    margin: 10px 0;
+}
+/* footer */
+
+.contact i {
+    color: white;
+    font-size: 20px;
+}
+
+.contact p {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-menu a:hover {
+    color: #D9AD40;
+}
+
+/* about.html */
+#about-us {
+    background: url('img/469806172.jpg') rgba(0, 0, 0, 0.35);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-header h2 {
+    font-size: 45px;
+    color: #D9AD40;
+}
+
+.about-header p {
+    color: white;
+    font-size: 25px;
+}
+
+/* rooms.html */
+
+#about-room {
+    background: url('img/469806119.jpg') rgba(0, 0, 0, 0.35);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.question-img {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#about-gallery {
+    background: url('img/469805789.jpg') rgba(0, 0, 0, 0.35);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.photos img {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#about-contact {
+    background: url('img/500865867.jpg') rgba(0, 0, 0, 0.35);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .about-dsc {
+        margin-bottom: 20px!important;
+    }
+
+    .about-img {
+        left: 0;
+        top: 0!important;
+        right: 0;
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .bookings img {
+        margin: 20px 0;
+    }
+
+    .btn-1 a  {
+        font-size: 18px;
+    }
+
+    .tes {
+        display: none;
+    }
+
+    .accordion {
+        margin-bottom: 20px;
+    }
+
+    .map {
+        margin-top: 20px;
+    }
+
+    .cards {
+        position: relative;
+        top: 0;
+    }
+}
+
+
+/* annimation */
+
+.fadeinleft {
+    opacity:0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+}
+
+.fadeinright {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s ease-out;
+}
+
+.fadeindown {
+    opacity:0 ;
+    transform: translateY(-100px);
+    transition: all 1.2s ease-out;
+}
+
+.fadeinup {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.2s ease-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: all 1.3s ease-in;
+}
+
+.active-left,
+.active,
+.active-right,
+.active-down,
+.active-up {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+.fadein {
+    opacity: 0;
+}
